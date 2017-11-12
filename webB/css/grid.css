@@ -1,0 +1,10 @@
+#container
+{
+  grid-template-columns: 100px 1fr 100px; /*tri kolonki*/
+}
+#grid{
+  grid-template-areas: "head head"
+                       "info content"
+                       "botmenu botmenu"
+                       "cop cop"
+}

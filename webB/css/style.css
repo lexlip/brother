@@ -1,0 +1,26 @@
+#container{
+  background-color: lightgray;
+}
+.head{
+  background-color: lightgreen;
+  grid-area: head;
+}
+.info{
+  background-color: lightblue;
+  grid-area: info;
+}
+.content{
+  background-color: green;
+  grid-area:content;
+}
+.botmenu{
+  background-color: darkred;
+  grid-area:botmenu;
+}
+.cop{
+  background-color: red;
+  grid-area:cop;
+}
+#grid{
+  display: grid;
+}
