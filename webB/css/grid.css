@@ -1,9 +1,16 @@
-#container
+.container
 {
-  grid-template-columns: 100px 1fr 100px; /*tri kolonki*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 1fr; /*tri kolonki*/
+  grid-template-rows: auto;
 }
 #grid{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
   grid-template-areas: "head head"
+                       "menu menu"
                        "info content"
                        "botmenu botmenu"
                        "cop cop"
