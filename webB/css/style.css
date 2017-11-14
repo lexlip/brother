@@ -6,58 +6,71 @@
   grid-area: head;
   grid-column-start: 1;
   grid-column-end: 3;
-  margin: 10px;
+
 }
 .menu{
   background-color: blue;
   grid-area: menu;
   grid-column-start: 1;
   grid-column-end: 3;
-  margin:10px;
+
 }
 .info{
   background-color: lightblue;
   grid-area: info;
   grid-column-start: 1;
   grid-column-end: 2;
-  margin: 10px;
+
 }
 .content{
   background-color: green;
   grid-area:content;
   grid-column-start: 2;
   grid-column-end: 3;
-  margin: 10px;
+
 }
 .botmenu{
   background-color: darkred;
   grid-area:botmenu;
   grid-column-start: 1;
   grid-column-end: 3;
-  margin: 10px;
+
 }
 .cop{
   background-color: red;
   grid-area:cop;
   grid-column-start: 1;
   grid-column-end: 3;
-  margin: 10px;
+
 }
-li{
-  list-style-type: none;
+.topmenu a{
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  width:11.11%;
+  padding: 0 0;
+}
+.topmenu a:hover{
+  transition: 0.5s;
+  background-color: darkblue;
+
 }
 .topmenu{
   display: flex;
+  padding: 0 5%;
+  margin: 0;
 }
-li a{
-  text-decoration: none;
+.topmenu a li{
+  list-style-type: none;
   color:white;
   text-align: center;
-  padding: 17px 26px;
-  margin: 5px;
+  padding: 25px 0;
 }
-li a:hover{
-  transition: 0.5s;
-  background-color: white;
-  color: black;
+.dostavka{
+  display: flex;
+  align-items: center;
+  background-color: red;
+  color:white;
+  font-family: Arial,sans-serif;
+  font-size: 15px;
 }
