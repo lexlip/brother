@@ -2,21 +2,21 @@
   background-color: lightgray;
 }
 .head{
-  background-color: lightgreen;
+  background-color: #002277;
   grid-area: head;
   grid-column-start: 1;
   grid-column-end: 3;
 
 }
 .menu{
-  background-color: blue;
+  background-color: #002277;
   grid-area: menu;
   grid-column-start: 1;
   grid-column-end: 3;
 
 }
 .info{
-  background-color: lightblue;
+  background-color: #002277;
   grid-area: info;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -59,18 +59,34 @@
   display: flex;
   padding: 0 5%;
   margin: 0;
+  border-top: solid;
+  border-top-color: #eb322e;
+  border-top-width: 1px;
+  border-bottom: solid;
+  border-bottom-color: #eb322e;
+  border-bottom-width: 1px;
 }
 .topmenu a li{
+  border-top: solid;
+  border-top-width: medium;
+  border-top-color: #002277;
   list-style-type: none;
   color:white;
   text-align: center;
   padding: 25px 0;
+  font-family: 'Oswald', sans-serif;
+}
+.topmenu a li:hover{
+  color: #ffd200;
+  transition-property: width;
+  border-top: solid;
+  border-top-width: medium;
 }
 .dostavka{
   display: flex;
   align-items: center;
-  background-color: red;
+  background-color: #eb322e;
   color:white;
-  font-family: Arial,sans-serif;
+  font-family: Arial;
   font-size: 15px;
 }
